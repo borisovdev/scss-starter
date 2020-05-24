@@ -1,0 +1,45 @@
+@import "_mixins/mixins";
+
+// Classic size
+%smallest-size {
+	@include fluid-type(9px, 10px, $min-width-content, $max-width-content, px);
+}
+%small-size {
+	@include fluid-type(11px, 12px, $min-width-content, $max-width-content, px);
+}
+%std-size {
+	@include fluid-type(12px, 14px, $min-width-content, $max-width-content, px);
+}
+%std-extra-size {
+	@include fluid-type(14px, 16px, $min-width-content, $max-width-content, px);
+}
+%medium-size {
+	@include fluid-type(16px, 18px, $min-width-content, $max-width-content, px);
+}
+%medium-extra-size {
+	@include fluid-type(18px, 20px, $min-width-content, $max-width-content, px);
+}
+
+// Title size
+%subtitle-size {
+	@include fluid-type(20px, 22px, $min-width-content, $max-width-content, px);
+}
+%title-size {
+	@include fluid-type(22px, 26px, $min-width-content, $max-width-content, px);
+}
+
+// Header size
+%subheader-size {
+	@include fluid-type(24px, 28px, $min-width-content, $max-width-content, px);
+}
+%header-size {
+	@include fluid-type(32px, 36px, $min-width-content, $max-width-content, px);
+}
+%header-extra-size {
+	@include fluid-type(36px, 42px, $min-width-content, $max-width-content, px);
+}
+
+// Banner size
+%banner-size {
+	@include fluid-type(48px, 64px, $min-width-content, $max-width-content, px);
+}

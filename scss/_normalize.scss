@@ -1,0 +1,65 @@
+/*=== Normalize ===*/
+	/* Bootstrap normalize */
+	.container {
+		max-width: 1200px;
+		.row {
+			margin: 0;
+		}
+	}
+	/* Main normalize */
+	html, body {
+		padding: 0;
+		margin: 0!important;
+	}
+
+	body {
+		height: 100%;
+		min-width: 320px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		overflow-x: hidden;
+		line-height: 1.65;
+		font-family: $default-font;
+		font-size: 16px;
+		color: black;
+		background: $color-main;
+	}
+
+	header {
+		flex: 0 0 auto;
+	}
+
+	main {
+		flex: 1 0 auto;
+	}
+
+	footer {
+		flex: 0 0 auto;
+	}
+	/* Elements normalize */
+	b, strong {
+		font-weight: bold;
+	}
+
+	a, a:hover, a:focus {
+		text-decoration: none;
+		// text-transform: none;
+		outline: none;
+	}
+
+	ul, li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	fieldset {
+		border: none;
+		margin: 0;
+		padding: 0;
+	}

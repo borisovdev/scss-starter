@@ -1,0 +1,16 @@
+$author: "Alexandr Borisov";
+$version: "1.0.0";
+/*!
+ * SCSS Starter
+ *
+ * Author: #{$author}
+ * Version: #{$version}
+ */
+
+@import "vars";
+@import "_mixins/mixins";
+@import "_placeholders/typography";
+@import "fonts";
+@import "libs";
+@import "normalize";
+@import "helpers";
